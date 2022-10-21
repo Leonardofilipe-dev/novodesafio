@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+
+
+
+    h1 {
+        position: absolute;
+        width: 512px;
+        height: 126px;
+        left: 202px;
+        top: 210px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 63px;
+
+        color: #FF4081;
+    }
+
+    .p1 {
+        position: absolute;
+        width: 461px;
+        height: 186px;
+        left: 202px;
+        top: 358px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    .img-principal {
+        position: absolute;
+        height: 381px;
+        width: 380px;
+        left: 751px;
+        top: 197px;
+    }
+
+    .fundo-das-aulas {
+        
+        width: 1440px;
+        height: 1235px;
+        left: 0px;
+        top: 659px;
+
+        background: #F7F7F7;
+    }
+
+    .aula01-video-retangulo {
+        box-sizing: border-box;
+        position: absolute;
+        width: 462px;
+        height: 261px;
+        left: 213px;
+        top: 734px;
+        border: 3px solid #8E8E8E;
+
+    }
+
+    .aula01-video-circulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 399px;
+        top: 820px;
+
+        border: 1px solid #000000;
+        border-radius: 50%;
+    }
+
+    .aula01-video-triangulo {
+        position: absolute;
+        width: 56px;
+        height: 53px;
+        left: 470.39px;
+        top: 837.37px;
+
+        border: 1px solid #000000;
+        transform: rotate(90deg);
+        
+    }
+
+    .aula01-h2 {
+        position: absolute;
+        width: 512px;
+        height: 40px;
+        left: 751px;
+        top: 734px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+
+        color: #FF4081;
+    }
+
+    .aula01-p {
+        position: absolute;
+        width: 501px;
+        height: 195px;
+        left: 751px;
+        top: 800px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    .divisoria-01 {
+        position: absolute;
+        width: 1244px;
+        height: 3px;
+        left: 98px;
+        top: 1068px;
+
+        background: #C4C4C4;
+    }
+
+    .aula02-video-retangulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 462px;
+        height: 261px;
+        left: 212px;
+        top: 1146px;
+
+        border: 3px solid #8E8E8E;
+    }
+
+    .aula02-video-circulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 398px;
+        top: 1232px;
+
+        border: 1px solid #000000;
+        border-radius: 50%;
+    }
+
+    .aula02-video-triangulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 56px;
+        height: 53px;
+        left: 469.39px;
+        top: 1249.37px;
+
+        border: 1px solid #000000;
+        transform: rotate(90deg);
+    }
+
+    .aula02-h2 {
+        position: absolute;
+        width: 106px;
+        height: 40px;
+        left: 750px;
+        top: 1146px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+
+        color: #FF4081;
+    }
+
+    .aula02-p {
+        position: absolute;
+        width: 501px;
+        height: 195px;
+        left: 750px;
+        top: 1212px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    .divisoria-02 {
+        position: absolute;
+        width: 1244px;
+        height: 3px;
+        left: 98px;
+        top: 1480px;
+
+        background: #C4C4C4;
+    }
+
+    .aula03-video-retangulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 462px;
+        height: 261px;
+        left: 212px;
+        top: 1558px;
+
+        border: 3px solid #8E8E8E;
+    }
+
+    .aula03-video-circulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 398px;
+        top: 1644px;
+
+        border: 1px solid #000000;
+        border-radius: 50%;
+    }
+
+    .aula03-video-triangulo {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 56px;
+        height: 53px;
+        left: 469.39px;
+        top: 1661.37px;
+
+        border: 1px solid #000000;
+        transform: rotate(90deg); 
+        
+    }
+
+    .aula03-h2 {
+        position: absolute;
+        width: 512px;
+        height: 40px;
+        left: 750px;
+        top: 1558px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+
+        color: #FF4081;
+    }
+
+    .aula03-p {
+        position: absolute;
+        width: 501px;
+        height: 195px;
+        left: 750px;
+        top: 1624px;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    @media screen and (min-width: 1024px) {
+        .container{
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+    
+        .post-imagem{
+            height: 60vh;
+            width: 1032px;
+            margin: 50px auto;
+        }
+    
+        .cursos .container{
+            flex-direction: row;
+        }
+    
+        .curso{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+    
+        .curso-imagem{
+            height: 279px;
+        }
+
+    }
+    
+    footer{
+        margin-top: 550px;
+    }

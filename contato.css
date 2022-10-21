@@ -1,0 +1,52 @@
+main{
+    width: 100vw;
+    height: auto;
+    padding: 150px 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main img{
+    width: 444px;
+    height: 444px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    margin-bottom: 40px;
+}
+
+form input, form .message{
+    width: 493px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+form .message{
+    height: 193px;
+    resize: none;
+    padding-top: 10px;
+
+}
+
+form button{
+    width: 108px;
+    height: 32px;
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+}
